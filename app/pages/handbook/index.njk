@@ -1,0 +1,63 @@
+{% extends "base-layout.njk" %}
+{% block title %}Справочник{% endblock %}
+{% block content %}
+  <section class="preview">
+    <div class="title">Справочник</div>
+    <div class="preview__text">
+      На данной странице сайта Вы можете обнаружить полезные материалы для каждого
+      предмета. Создание каждого справочного материала было под проверкой
+      преподавателя.
+    </div>
+  </section>
+  <section class="physics">
+    <div class="restrange-title restrange--green text--bold">Физика</div>
+    <div class="buttons">
+      <ul class="buttons__list buttons__list--columns--3">
+        <li class="buttons__list-item">
+          <a class="button button--alight--center" href="/handbook/physics-synopsis">
+          Конспекты</a>
+        </li>
+        <li class="buttons__list-item">
+          <a class="button button--alight--center" href="/handbook/physics-definitions">
+          Определения</a>
+        </li>
+        <li class="buttons__list-item">
+          <a class="button button--alight--center" href="/handbook/physics-formulas">
+          Формулы</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="informatics">
+    <div class="restrange-title restrange--blue text--bold">Информатика</div>
+    <div class="buttons">
+      <ul class="buttons__list buttons__list--columns--3">
+        <li class="buttons__list-item">
+          <a class="button button--alight--center" href="">Конспекты</a>
+        </li>
+        <li class="buttons__list-item">
+          <a class="button button--alight--center" href="">Определения</a>
+        </li>
+        <li class="buttons__list-item">
+          <a class="button button--alight--center" href="">Формулы</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="russian">
+    <div class="restrange-title restrange--yellow text--bold">Русский</div>
+    <div class="buttons">
+      <ul class="buttons__list buttons__list--columns--3">
+        <li class="buttons__list-item">
+          <a class="button button--alight--center" href="">Конспекты</a>
+        </li>
+        <li class="buttons__list-item">
+          <a class="button button--alight--center" href="">Определения</a>
+        </li>
+        <li class="buttons__list-item">
+          <a class="button button--alight--center" href="">Формулы</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+{% endblock %}
