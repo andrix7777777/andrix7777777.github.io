@@ -1,4 +1,4 @@
-:root {
+:root {    /* latte = light mode; macchato = dark mode; mantle = bg; */
   /* macchiato */
   --ctp-macchiato-rosewater: #f4dbd6;
   --ctp-macchiato-flamingo: #f0c6c6;
@@ -7,9 +7,9 @@
   --ctp-macchiato-red: #ed8796;
   --ctp-macchiato-maroon: #ee99a0;
   --ctp-macchiato-peach: #f5a97f;
-  --ctp-macchiato-yellow: #eed49f;
-  --ctp-macchiato-green: #a6da95;
-  --ctp-macchiato-teal: #8bd5ca;
+  --ctp-macchiato-yellow: #ffd277;-
+  --ctp-macchiato-green: #8bff65;-
+  --ctp-macchiato-teal: #84ffed;-
   --ctp-macchiato-sky: #91d7e3;
   --ctp-macchiato-sapphire: #7dc4e4;
   --ctp-macchiato-blue: #8aadf4;
@@ -23,8 +23,8 @@
   --ctp-macchiato-surface2: #5b6078;
   --ctp-macchiato-surface1: #494d64;
   --ctp-macchiato-surface0: #363a4f;
-  --ctp-macchiato-base: #24273a;
-  --ctp-macchiato-mantle: #1e2030;
+  --ctp-macchiato-base: #1c2036;-
+  --ctp-macchiato-mantle: #0d0e18;-
   --ctp-macchiato-crust: #181926;
 
   /* mocha */
@@ -70,7 +70,7 @@
   --ctp-latte-sapphire: #209fb5;
   --ctp-latte-blue: #1e66f5;
   --ctp-latte-lavender: #7287fd;
-  --ctp-latte-text: #4c4f69;
+  --ctp-latte-text: #090f40;
   --ctp-latte-subtext1: #5c5f77;
   --ctp-latte-subtext0: #6c6f85;
   --ctp-latte-overlay2: #7c7f93;
@@ -79,8 +79,8 @@
   --ctp-latte-surface2: #acb0be;
   --ctp-latte-surface1: #bcc0cc;
   --ctp-latte-surface0: #ccd0da;
-  --ctp-latte-base: #eff1f5;
-  --ctp-latte-mantle: #e6e9ef;
+  --ctp-latte-base: #eff4fd;-
+  --ctp-latte-mantle: #eaedff;-
   --ctp-latte-crust: #dce0e8;
 
   /* frappe */
